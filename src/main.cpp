@@ -83,16 +83,16 @@ void i2cScanner() {
 }
 
 float getBatterySoC(float voltage) {
-  if (voltage >= 12.6) return 100;
-  if (voltage >= 12.3) return 90;
-  if (voltage >= 12.0) return 80;
-  if (voltage >= 11.7) return 70;
-  if (voltage >= 11.4) return 60;
-  if (voltage >= 11.1) return 50;
-  if (voltage >= 10.8) return 40;
-  if (voltage >= 10.5) return 30;
-  if (voltage >= 10.2) return 20;
-  if (voltage >= 9.9)  return 10;
+  if (voltage >= 11.6) return 100;
+  if (voltage >= 11.3) return 90;
+  if (voltage >= 11.0) return 80;
+  if (voltage >= 10.7) return 70;
+  if (voltage >= 10.4) return 60;
+  if (voltage >= 10.1) return 50;
+  if (voltage >= 9.8) return 40;
+  if (voltage >= 9.5) return 30;
+  if (voltage >= 9.2) return 20;
+  if (voltage >= 8.9)  return 10;
   return 0;
 }
 
